@@ -15,9 +15,9 @@ use App\Http\Controllers\JsonDataController;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/{filename}', [JsonDataController::class, 'getJsonData']);
 

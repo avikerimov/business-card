@@ -20,9 +20,8 @@ class JsonDataController extends Controller
             }
 
             return view('card', compact('data', 'date', 'backgroundArr'));
-            // return response()->json(json_decode($jsonData), 200);
         } else {
-            return response()->json(['error' => 'File not found'], 404);
+            return response("Page Not Found");
         }
     }
 }
