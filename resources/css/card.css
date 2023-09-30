@@ -1,0 +1,33 @@
+#card {
+    background-image: url('../../public/images/Background-Image-x2.png');
+    background-repeat: no-repeat;
+}
+
+.subtitle {
+    color: #13AAFF;
+    font-weight: 700;
+}
+
+.common {
+    font-size: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.information {
+    color: #111;
+    font-weight: 500;
+}
+
+.box {
+    margin-bottom: 1.5rem;
+}
+
+.box-content {
+    flex: 0 0 50%;
+}
+
+#profile{
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 3px 4px 0 rgba(0,0,0,0.2), 0 4px 2px 0 rgba(0,0,0,0.19);
+}
